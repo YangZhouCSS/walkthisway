@@ -800,7 +800,7 @@ NIL
 @#$#@#$#@
 ## WHAT IS IT?
 
-This is a reimplementation of the pedestrian model in “Walk This Way: Improving Pedestrian Agent-Based Models through Scene Activity Analysis” by Andrew Crooks et al. The purpose of this model is to better understand and model how pedestrians utilize and move through space. It explores the potential that mobility datasets offers for the improvement of agent-based pedestrian models.
+This is a reimplementation of the pedestrian model in “Walk This Way: Improving Pedestrian Agent-Based Models through Scene Activity Analysis” by Andrew Crooks et al. The purpose of pedestrian models in general, is to better understand and model how pedestrians utilize and move through space. This model makes use of mobility datasets from video surveillance to explore the potential that this type of information offers for the improvement of agent-based pedestrian models.     
 
 This reimplementation model is written by Yang Zhou, PhD student in Computational Social Science at George Mason University.
 
@@ -845,7 +845,7 @@ Options for testing:
 
 ## THINGS TO NOTICE
 
-There is one graident map for each pair of entrance and exit, therefore, 16 * 18 = 288 maps are loaded. However, the final result is compared to only one path frequency map which is an emprical dataset obtained on August 25th.
+There is one gradient map for each pair of entrance and exit, therefore, 16 * 18 = 288 maps are loaded. However, the final result is compared to only one path frequency map which is an empirical dataset obtained on August 25th.
 
 Also please note that, when the entrance/exit probabilities table is used, some entrances are exits have a probability of being chosen equals to zero. While the table is not used, agents just randomly choose any entrances or exits.
 
@@ -875,7 +875,6 @@ http://geospatialcss.blogspot.com/2016/02/agents-exiting-room.html
 ## CREDITS AND REFERENCES
 
 Crooks, A., Croitoru, A., Lu, X., Wise, S., Irvine, J. M., & Stefanidis, A. (2015). Walk This Way: Improving Pedestrian Agent-Based Models through Scene Activity Analysis. ISPRS International Journal of Geo-Information, 4(3), 1627-1656.
-
 
 @#$#@#$#@
 default
